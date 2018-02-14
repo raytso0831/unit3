@@ -56,9 +56,3 @@ while i <= 5:
     total = total + i
     i += 1
 print(total)
-
-
-
-
-
-
