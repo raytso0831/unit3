@@ -2,6 +2,9 @@
 #2/15/18
 #breakDemo.py- how to break a loop
 
-while 1==1:
+while True:
     text=input('Say anything:')
+    if text=='anything':
+        break
     print(text)
+    
