@@ -18,12 +18,13 @@ while True:
     elif choice == '3':
         liter = float(input('Enter a number of Liters: '))
         print(liter, 'liters is',liter*.264,'gallons')
-    elif choice == 'quit':
-        break
     elif choice==4:
         celsius = float(input('Enter degrees in Celcius: '))
         print(celsius, 'degrees Celsius is',)
+    elif choice == 'quit':
+        break
     else:
         print('ERROR!!!')
+        break
 
     
