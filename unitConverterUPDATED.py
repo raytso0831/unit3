@@ -8,7 +8,7 @@ print('choice_3=  Liters to Gallons')
 print('choice_4= Celsius to Fahrenheit')
 
 while True:
-    choice = (input('Choose a number or type quit: '))
+    choice = (input('Choose a number from 1-4 or type quit: '))
     if choice == '1':
         kilom = float(input('Enter number of Kilometers: '))
         print(kilom, 'kilometers is',kilom*.621371,'miles')
@@ -20,8 +20,10 @@ while True:
         print(liter, 'liters is',liter*.264,'gallons')
     elif choice == 'quit':
         break
-    else:
+    elif choice==4:
         celsius = float(input('Enter degrees in Celcius: '))
         print(celsius, 'degrees Celsius is',)
+    else:
+        print('ERROR!!!')
 
     
