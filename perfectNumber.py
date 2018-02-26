@@ -12,3 +12,4 @@ if total == num:
     print('This number is a Perfect number')
 else:
     print('This number is Not perfect')
+    
