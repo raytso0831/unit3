@@ -2,12 +2,13 @@
 #2/18/18
 #perfectNumber.py
 
-num=int(input('Enter a number:'))
+
+num = int(input('Enter a number: '))
+total = 0
 for i in range(1,num):
     if num%i==0:
-        print(i)
-    
-    if i==num:
-        print('This number is a a perfect number')
-    else:
-        print('This number is NOT a perfect number')
+        total = total + i
+if total == num:
+    print('Perfect')
+else:
+    print('Not perfect')
