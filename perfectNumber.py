@@ -9,6 +9,6 @@ for i in range(1,num):
     if num%i==0:
         total = total + i
 if total == num:
-    print('Perfect')
+    print('This number is a Perfect number')
 else:
-    print('Not perfect')
+    print('This number is Not perfect')
