@@ -10,4 +10,4 @@ for i in range(1,num):
     if i==num:
         print('This number is a a perfect number')
     else:
-        print('This number is NoT a perfect number')
+        print('This number is NOT a perfect number')
