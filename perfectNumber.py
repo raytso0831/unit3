@@ -1,4 +1,4 @@
-#Ray Tso
+#Ray Tsoswx3e
 #2/18/18
 #perfectNumber.py
 
@@ -9,3 +9,5 @@ for i in range(1,num):
     
     if i==num:
         print('This number is a a perfect number')
+    else:
+        print('This number is NoT a perfect number')
