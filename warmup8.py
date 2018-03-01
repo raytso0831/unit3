@@ -2,9 +2,11 @@
 #2/28/18
 #warmup8.py
 
+num=1
 total=0
-num=100000
-for i in range(1,num+1):
-    if num%3==0 and num%10==0 and num%17==0:
-        total+=i
+while num<100000:
+    if num%3==0 and num%10==0 and num&17==0:
+        total+=num
+    num+=1
 print(total)
+        
