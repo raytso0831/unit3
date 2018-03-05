@@ -3,15 +3,15 @@
 #quiz3.py
 
 
-for i in range(50,14,-4):
-    print(i)
-
-
-
 i = -15
 while i <=-9 :
     print(i)
     i += 1
+
+
+for i in range(50,14,-4):
+    print(i)
+
     
 num=1
 total=0
